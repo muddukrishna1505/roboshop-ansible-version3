@@ -2,8 +2,8 @@ MONGODB_HOST: mongodb-{{ env }}.bmkrishtech.online
 REDIS_HOST: redis-{{ env }}.bmkrishtech.online
 MYSQL_HOST: mysql-{{ env }}.bmkrishtech.online 
 RABBITMQ_HOST: rabbitmq-{{ env }}.bmkrishtech.online 
-CATALOGUE_HOST: catalogue-{{ env }}.bmkrishtech.online
-USER_HOST: user-{{ env }}.bmkrishtech.online
-CART_HOST: cart-{{ env }}.bmkrishtech.online
-SHIPPING_HOST: shipping-{{ env }}.bmkrishtech.online
-PAYMENT_HOST: payment-{{ env }}.bmkrishtech.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.bmkrishtech.online
+USER_HOST: user.backend-alb-{{ env }}.bmkrishtech.online
+CART_HOST: cart.backend-alb-{{ env }}.bmkrishtech.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.bmkrishtech.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.bmkrishtech.online
